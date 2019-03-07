@@ -1,0 +1,62 @@
+.slider {
+  position: relative;
+  max-width: 600px;
+  margin-top: 25px;
+}
+.slider input[name="switch"] {
+  display: none;
+}
+.switch {
+  position: absolute;
+  left: 0;
+  bottom: -40px;
+  text-align: center;
+  width: 100%;
+}
+.switch label {
+  display: inline-block;
+  width: 35px;
+  cursor: pointer;
+  margin: 0 3px;;
+  border: 2px solid #aeaeae;
+}
+#btn1:checked ~ .switch-btn1 {
+  background-color: #fe504f;
+}
+#btn2:checked ~ .switch-btn2 {
+  background-color: #fe504f;
+}
+#btn3:checked ~ .switch-btn3 {
+  background-color: #fe504f;
+}
+.slider-inner {
+  overflow: hidden;
+}
+.slides {
+  width: 300%;
+  transition: all 0.5s;
+    display: flex;
+}
+.slides .slide {
+  width: 600px;
+  height: 370px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.slides .slide img {
+    width: 185px;
+    height: 185px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+#btn1:checked ~ .slider-inner .slides {
+  margin-left: 0;
+}
+#btn2:checked ~ .slider-inner .slides {
+  margin-left: -600px;
+}
+#btn3:checked ~ .slider-inner .slides {
+  margin-left: -1200px;
+}

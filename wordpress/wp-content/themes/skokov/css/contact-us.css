@@ -1,0 +1,33 @@
+.contact-us {
+    height: 400px;
+    background: url('../img/dots.png'), url('../img/bg-contact-us.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+
+.contact-us__container {
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.contact-us-headline {
+    max-width: 1036px;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 58px;
+    text-transform: uppercase;
+}
+
+@media(min-width: 460px) and (max-width: 473px) {
+    .contact-us-headline {
+        line-height: 48px;
+    }
+}

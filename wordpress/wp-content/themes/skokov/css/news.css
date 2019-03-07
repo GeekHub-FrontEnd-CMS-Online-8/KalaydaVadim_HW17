@@ -1,0 +1,234 @@
+.news {
+    min-height: 920px;
+}
+
+.news__container {
+    width: 75%;
+    min-height: 920px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    margin-top: -40px;
+}
+
+.news__search-block {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.news__search {
+    width: 300px;
+    height: 40px;
+    background: #343434;
+}
+
+.news__search__form {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.news__search__form-input {
+    width: 241px;
+    height: 28px;
+    background: transparent;
+    border: 1px solid #fe504f;
+    color: #fe504f;
+}
+
+.news__search__form-btn {
+    width: 42px;
+    height: 28px;
+    background: #fe504f;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.news__content {
+    min-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 57px;
+    justify-content: center;
+    margin-bottom: 80px;
+    margin-top: 0;
+}
+
+.news__content__left {
+    width: 900px;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.news__content__left__post {
+    display: flex;
+}
+
+.news__content__left__post img {
+    width: 600px;
+    height: 300px;
+}
+
+.news__content__left__post__text {
+    width: 300px;
+    height: 300px;
+    background: #343434;
+}
+
+.news__content__left__post__text__container {
+    width: 85%;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.news__content__left__post__text__top {
+    height: 80%;
+}
+
+.news__content__left__post__text__top-headline {
+    max-width: 171px;
+    font-size: 20px;
+    line-height: 26px;
+    text-transform: uppercase;
+}
+
+.news__content__left__post__text__top-headline a{
+    color: #fe504f;
+}
+
+.news__content__left__post__text__top-underline {
+    width: 50px;
+    border: 2px solid #fe504f;
+    margin-top: -10px;
+}
+
+.news__content__left__post__text__top-paragraph {
+    color: #fff;
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 17px;
+}
+
+.news__content__left__post__text__bottom-date {
+    color: #fe504f;
+    font-size: 12px;
+    font-style: italic;
+    line-height: 20px;
+    text-align: right;
+}
+
+.news__content__left__post__text__bottom {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.news__content__right {
+    width: 300px;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.news__content__right img{
+    width: 300px;
+    height: 300px;
+}
+
+.news__content__bottom {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.news__content__bottom-btn {
+    width: 370px;
+    height: 60px;
+    background: #343434;
+    color: #fe504f;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 20px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 1px;
+    transition: .2s;
+}
+
+.news__content__bottom-btn:hover {
+    background: #414141;
+}
+
+.news__content__bottom-btn:active {
+    background: #323232;
+}
+
+@media(min-width: 1900px) and (max-width: 1920px) {
+    .news__search {
+        margin-right: 113px;
+    }
+}
+
+@media(min-width: 460px) and (max-width: 1599px) {
+    .news__content__right img {
+        margin-top: 20px;
+    }
+}
+
+@media(min-width: 655px) and (max-width: 900px) {
+    .news__content__left {
+        width: 655px;
+        justify-content: center;
+    }
+    .news__content__left__post img {
+        width: 75%;
+    }
+}
+
+@media(min-width: 552px) and (max-width: 654px) {
+    .news__content__left {
+        width: 550px;
+        justify-content: center;
+    }
+    .news__content__left__post img {
+        width: 50%; 
+    }
+}
+
+@media(min-width: 460px) and (max-width: 900px) {
+    .news__content__left__post {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .news__content__left__post img {
+        width: 300px;
+        height: 300px;
+    }
+    .news__search-block {
+        justify-content: center;
+    }
+}

@@ -1,0 +1,17 @@
+body,
+html {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Inconsolata', sans-serif;
+    text-decoration: none;
+}

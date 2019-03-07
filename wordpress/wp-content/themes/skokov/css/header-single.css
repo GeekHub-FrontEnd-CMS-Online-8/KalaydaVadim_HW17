@@ -1,0 +1,137 @@
+.header {
+    width: 100%;
+    height: 700px;
+    background: url('../img/header-single-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.header__container {
+    width: 85%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.header__top {
+    width: 100%;
+    height: 160px;
+    display: flex;
+}
+
+.header__top__left {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header__top__left-skokov {
+    color: #fe504f;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 32px;
+    text-transform: uppercase;
+}
+
+.header__top__right {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header__top__right__navmenu {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.header__top__right__navmenu-list {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.header__top__right__navmenu-list a{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    text-transform: uppercase;
+    padding-bottom: 3px;
+}
+
+.header__top__right__navmenu-list a:hover {
+    border-bottom: 2px solid #fe504f;
+}
+
+.header__content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.header__post-image {
+    max-width: 1200px;
+    height: 500px;
+    position: relative;
+}
+
+.header__post-image img{
+    width: 1200px;
+    height: 500px;
+}
+
+.header__post-image__about {
+    width: 491px;
+    height: 142px;
+    background: url('../img/single-post-border.png');
+    position: absolute;
+    color: #fe504f;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    bottom: 0;
+}
+
+.header__post-image__about-headline {
+    max-width: 325px;
+    font-size: 20px;
+    line-height: 26px;
+    text-transform: uppercase;
+    margin-left: 15px;
+}
+
+.header__post-image-underline {
+    width: 50px;
+    border: 2px solid #fe504f;
+    margin-top: -5px;
+    margin-left: 15px;
+}
+
+@media(min-width: 900px) and (max-width: 1199px) {
+    .header__post-image img{
+        width: 100%;
+    }
+}
+
+@media(min-width: 460px) and (max-width: 899px) {
+    .header__top__left-skokov {
+        margin-left: 20px;    
+    }
+    
+    .header__container {
+        width: 100%;
+    }
+    
+    .header__post-image img{
+        width: 100%;
+    }
+}

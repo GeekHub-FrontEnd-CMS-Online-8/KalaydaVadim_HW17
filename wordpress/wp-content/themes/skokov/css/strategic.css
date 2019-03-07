@@ -1,0 +1,54 @@
+.strategic {
+    height: 400px;
+    background: url('../img/dots.png'), url('../img/strategic-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.strategic__container {
+    width: 85%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+.strategic-btn {
+    width: 92px;
+    height: 92px;
+    border-radius: 50%;
+    background: #fe504f;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .2s;
+}
+
+.strategic-btn:hover {
+    background: #FF605F;
+}
+
+.strategic-btn:active {
+    background: #DC3D3C;
+}
+
+.strategic-headline {
+    color: #fff;
+    font-size: 34px;
+    line-height: 58px;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.strategic-text {
+    max-width: 991px;
+    color: #fff;
+    line-height: 24px;
+    text-align: center;
+    margin-top: -20px;
+}

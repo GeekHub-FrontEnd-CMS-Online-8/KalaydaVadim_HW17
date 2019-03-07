@@ -1,0 +1,44 @@
+.footer {
+    height: 70px;
+    background: #343434;
+}
+
+.footer__container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__left {
+    width: 50%;
+    height: 70px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.footer__left-copyright {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.footer__right {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.footer__right-paragraph {
+    color: #fe504f;
+}
+
+.footer__right-paragraph a{
+    color: #fe504f;
+}
