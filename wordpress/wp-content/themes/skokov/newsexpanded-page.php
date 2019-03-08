@@ -120,7 +120,7 @@
                    </div>
                    <div class="news__content__right">
                       <?php $args = array(
-                                'post_type'      => 'sk_right_posts',
+                                'post_type'      => 'rightposts',
                                 'posts_per_page' => '1000',
                                 'paged'          => get_query_var('paged')?: 1
                             );
